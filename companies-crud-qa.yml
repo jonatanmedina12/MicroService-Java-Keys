@@ -1,7 +1,7 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5435/companies-prod    # Cambia urlDb a url
-    username: admin-prod                                    # Cambia usernameDb a username
+    url: jdbc:postgresql://localhost:5434/companies-qa    # Cambia urlDb a url
+    username: admin-qa                                    # Cambia usernameDb a username
     password: 123456                                   # Cambia passwordDb a password
     hikari:
       connection-timeout: 20000
