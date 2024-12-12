@@ -4,4 +4,4 @@
       maximum-pool-size: 5
     passwordDb: 123456
     usernameDb: admin
-    url: jdbc:postgresql://localhost:5432/companies
+    urlDb: jdbc:postgresql://localhost:5432/companies
