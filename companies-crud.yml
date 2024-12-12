@@ -1,7 +1,8 @@
+spring:
   datasource:
+    url: jdbc:postgresql://localhost:5432/companies    # Cambia urlDb a url
+    username: admin                                    # Cambia usernameDb a username
+    password: 123456                                   # Cambia passwordDb a password
     hikari:
       connection-timeout: 20000
       maximum-pool-size: 5
-    passwordDb: 123456
-    usernameDb: admin
-    urlDb: jdbc:postgresql://localhost:5432/companies
